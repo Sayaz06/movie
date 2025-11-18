@@ -1,10 +1,10 @@
-const CACHE_NAME = 'movie-cache-v1';
+const CACHE_NAME = 'movie-cache-v2';
 const FILES_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
-  './icon-192.png',
-  './icon-512.png'
+  './iconMovie-192.png',
+  './iconMovie-512.png'
 ];
 
 self.addEventListener('install', evt => {
